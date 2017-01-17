@@ -43,5 +43,5 @@ class apache (
    class { '::apache::install': } ->
    class { '::apache::config': } ~>
    class { '::apache::service': } ->
-   Class [ '::apache' ]
+   Class[ '::apache' ]
 }
